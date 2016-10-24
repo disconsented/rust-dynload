@@ -1,0 +1,11 @@
+[package]
+name = "rust-test-command"
+version = "0.1.0"
+authors = ["disconsented <lords-death@hotmail.com>"]
+
+[lib]
+name = "embed"
+crate-type = ["dylib"]
+
+[dependencies.shared]
+path = "../shared"
