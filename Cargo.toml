@@ -5,4 +5,4 @@ authors = ["disconsented <lords-death@hotmail.com>"]
 
 [dependencies]
 libloading = "0.3"
-common = {path = "/root/IdeaProjects/rust-dynload/"}
+shared = { path = "common" }

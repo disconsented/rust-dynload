@@ -7,5 +7,5 @@ authors = ["disconsented <lords-death@hotmail.com>"]
 name = "embed"
 crate-type = ["dylib"]
 
-[dependencies.shared]
-path = "../shared"
+[dependencies]
+shared = { path = "../common" }
